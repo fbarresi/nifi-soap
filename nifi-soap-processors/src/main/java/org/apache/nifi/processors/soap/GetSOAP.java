@@ -55,7 +55,7 @@ import java.util.*;
 
 
 @SupportsBatching
-@InputRequirement(InputRequirement.Requirement.INPUT_FORBIDDEN)
+@InputRequirement(InputRequirement.Requirement.INPUT_ALLOWED)
 @Tags({"SOAP", "Get", "Ingest", "Ingress"})
 @CapabilityDescription("Execute provided request against the SOAP endpoint. The result will be left in it's orginal form. " +
         "This processor can be scheduled to run on a timer, or cron expression, using the standard scheduling methods, " +
